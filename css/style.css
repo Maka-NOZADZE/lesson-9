@@ -1,0 +1,83 @@
+/* general style */
+.conteiner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+.header-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.nav-ul {
+  display: flex;
+}
+.nav-li:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-li > a {
+  font-size: 16px;
+  color: #303134;
+  text-transform: uppercase;
+}
+.burger-bar {
+  display: none;
+  font-size: 30px;
+}
+
+/* section 1 */
+.section-1-conteiner {
+  height: 500px;
+  background-image: url(https://i2.wp.com/cnet1.cbsistatic.com/img/-B3kmqxu8sB6pYlTVZqRF9_cJB0=/2020/04/16/7d6d8ed2-e10c-4f91-b2dd-74fae951c6d8/bazaart-edit-app.jpg?w=1000&ssl=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-text {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+/* section 2 */
+.section-2 {
+  margin-top: 40px;
+  padding: 80px 0;
+}
+.section-2-conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+.section-2-texts {
+  width: 240px;
+}
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.section-2-cards {
+  width: 870px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.card-text {
+  margin-top: 10px;
+}
